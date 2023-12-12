@@ -1,0 +1,154 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.title-container {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+}
+
+.title-container img {
+    width: 90px;
+}
+
+.title-container h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.input-container{
+    font-family: 'Inter', sans-serif;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 317px;
+    gap: 5px;
+}
+
+
+#endorsement-input{
+    color: #ffffff;
+    font-size: 15px;
+    height: 120px;
+    width: 100%;
+    resize: none;
+    text-align: left;
+    padding: 12px 18px;
+    margin: 10px 0 0;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+#endorsement-input::-webkit-scrollbar{
+    width: 0;
+}
+
+.input-container input {
+    font-family: 'Inter', sans-serif;
+    width: 145px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 3px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    margin: 5px 2px;
+
+}
+
+
+.input-container button {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #28A9F1;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: 700;
+    width: 315px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+.endorsement-container ul{
+    width: 315px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+    white-space: pre-wrap;
+
+}
+.endorsement-container li{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #1B1924;
+    word-wrap: break-word;
+    text-align: left;
+    padding: 15px;
+
+}
+
+.endorsement-container li h4{
+    color: #1B1924;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.endorsement-container li p {
+    font-size: 14px;
+    padding: 0;
+}
+
+.li-btm-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 280px;
+}
+
+#like-container{
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+}
+
+.likes-count{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#endorsements-list {
+    color: white;
+    font-size: 19px;
+}
